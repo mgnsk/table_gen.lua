@@ -1,5 +1,5 @@
 -- load file from parent directory - remove this when not running directly from the repo
-package.path = package.path .. ";../?.lua"
+package.path = package.path .. ";../lua/?.lua"
 
 local table_gen = require "table_gen"
 
